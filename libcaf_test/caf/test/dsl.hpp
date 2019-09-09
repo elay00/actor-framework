@@ -573,6 +573,7 @@ public:
     cfg.set("logger.inline-output", true);
     cfg.set("middleman.network-backend", caf::atom("testing"));
     cfg.set("middleman.workers", size_t{0});
+    cfg.set("stream.credit-policy", caf::atom("testing"));
     return cfg;
   }
 

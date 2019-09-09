@@ -36,11 +36,13 @@ set(LIBCAF_CORE_SRCS
   src/blocking_actor.cpp
   src/blocking_behavior.cpp
   src/chars.cpp
+  src/complexity_based_credit_controller.cpp
   src/concatenated_tuple.cpp
   src/config_option.cpp
   src/config_option_adder.cpp
   src/config_option_set.cpp
   src/config_value.cpp
+  src/credit_controller.cpp
   src/decorated_tuple.cpp
   src/default_attachable.cpp
   src/defaults.cpp
@@ -123,6 +125,7 @@ set(LIBCAF_CORE_SRCS
   src/term.cpp
   src/test_actor_clock.cpp
   src/test_coordinator.cpp
+  src/test_credit_controller.cpp
   src/thread_hook.cpp
   src/thread_safe_actor_clock.cpp
   src/tick_emitter.cpp
