@@ -113,6 +113,7 @@ set(LIBCAF_CORE_SRCS
   src/settings.cpp
   src/shared_spinlock.cpp
   src/simple_actor_clock.cpp
+  src/size_based_credit_controller.cpp
   src/skip.cpp
   src/splitter.cpp
   src/stream_aborter.cpp
